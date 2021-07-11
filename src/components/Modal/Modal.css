@@ -13,9 +13,9 @@
 }
 
 .ModalOpen {
-    display: block
+    display: block;
 }
 
-.ModalClose {
+.ModalClosed {
     display: none;
 }

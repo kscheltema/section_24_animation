@@ -10,9 +10,9 @@
 
 
 .BackdropOpen {
-    display: block
+    display: block;
 }
 
-.BackdropClose {
+.BackdropClosed {
     display: none;
 }
