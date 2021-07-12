@@ -37,6 +37,12 @@ class App extends Component {
           timeout={500}
           mountOnEnter
           unmountOnExit
+          onEntering
+          onEnter
+          onEntered
+          onExit
+          onExiting
+          onExited
         >
           {(state) => (
             <div
