@@ -32,7 +32,12 @@ class App extends Component {
           Toggle
         </button>
         <br />
-        <Transition in={this.state.showBlock} timeout={400}>
+        <Transition
+          in={this.state.showBlock}
+          timeout={500}
+          mountOnEnter
+          unmountOnExit
+        >
           {(state) => (
             <div
               style={{
