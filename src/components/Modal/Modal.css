@@ -14,11 +14,30 @@
 }
 
 .ModalOpen {
-    animation: openModal 400ms ease-out forwards
+    
 }
 
 .ModalClosed {
-    animation: closeModal 1000ms ease-out forwards;
+   
+}
+
+.fade-slide-enter {
+    opacity: 0;
+} 
+/* used only in one frame*/
+
+.fade-slide-enter-active {
+    animation: openModal 500ms ease-out forwards
+}
+
+.fade-slide-exit {
+    opacity: 1;
+}
+/* used only in one frame*/
+
+
+.fade-slide-exit-active {
+     animation: closeModal 1s ease-out forwards;
 }
 
 @keyframes openModal {

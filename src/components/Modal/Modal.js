@@ -15,10 +15,6 @@ const modal = (props) => {
       in={props.show}
       timeout={animationTiming}
       classNames="fade-slide"
-      //fade-slide-exit-active
-      //fade-slide-exit
-      //fade-slide-enter
-      //fade-slide-enter-active
     >
       <div className="Modal">
         <h1>A Modal</h1>
